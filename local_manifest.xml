@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="github2"
+                fetch="https://github.com" />
+
+        <!-- Sync trees -->
+        <project path="vendor/xiaomi/ulysse" name="riceDroid-Devices/android_vendor_xiaomi_ulysse" remote="github2" revision="12.1" />
+        <project path="device/xiaomi/ulysse" name="online0code/android_device_xiaomi_ulysse" remote="github2" revision="kmd-12.1" />
+        <project path="kernel/xiaomi/msm8937" name="riceDroid-Devices/android_kernel_xiaomi_msm8937"  remote="github2" revision="12.1" />
+        <project path="device/xiaomi/msm8937-common" name="riceDroid-Devices/android_device_xiaomi_msm8937-common" remote="github2" revision="12.1" />
+	      <project path="vendor/xiaomi/msm8937-common" name="riceDroid-Devices/android_vendor_xiaomi_msm8937-common" remote="github2" revision="12.1" />
+       
+</manifest>
